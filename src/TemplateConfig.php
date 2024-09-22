@@ -30,4 +30,10 @@ final class TemplateConfig
 
         return $this->templates[$name];
     }
+
+    /** @return Template[] */
+    public function allTemplates(): array
+    {
+        return array_values($this->templates);
+    }
 }
