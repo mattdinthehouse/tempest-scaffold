@@ -1,0 +1,26 @@
+{
+    "name": "tempest/scaffold",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "tempest/console": "dev-main",
+        "tempest/event-bus": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tempest\\Scaffold\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matt Dwyer-Reynolds",
+            "email": "matt@mattdwyer.cool"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
